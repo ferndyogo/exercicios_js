@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 03 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<script type="text/javascript" language="javascript">
+		
+		alert("A seguir será criada uma tabela de 4 linhas e 3 colunas")
+		n_linhas = 4
+		n_colunas = 5
+		t_coluna = prompt("Digite o tamanho da coluna")
+		l_coluna = t_coluna*n_colunas
+
+		document.write("<table border=\"1\" width=\"" + l_coluna + "\">")
+
+		for (j=1; j <= n_linhas; j++)
+		{
+			document.write("<tr>")
+			for (p=1; p <= n_colunas; p++)
+			{
+				document.write("<td width=\"" + l_coluna + "\">&nbsp;</td>")
+			}
+			document.write("</tr>")
+		}
+		document.write("</table>")
+
+
+		
+		
+
+
+
+
+
+
+
+	</script>
+	
+</body>
+</html>
