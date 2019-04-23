@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercício 08 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<script type="text/javascript" language="javascript">
+		function random() {
+    		return Math.floor(Math.random() * 60) + 1
+		}
+
+		n1 = random()
+		n2 = random()
+		n3 = random()
+		n4 = random()
+		n5 = random()
+		n6 = random()
+		
+		a = new Array(n1, n2, n3, n4, n5, n6)
+		for (var i = 0; i <=5; i++) {
+			for (var l = i +1; l <=5 ; l++) {
+				if (a[i] > a[l]) 
+				{
+					aux=a[i]
+					a[i]=a[l] 
+					a[l]=aux
+				}
+			}
+		}
+		
+		
+		document.write(a)
+	</script>
+</body>
+</html>
