@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 12 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<h1 align="center"> Propriedades do Navegador Atual </h1>
+<script language="javascript"> for (i in navigator){
+document.write("propriedade: " + i + "<br>") ; document.write("conteúdo: " + navigator[i] + "<hr>");
+}
+
+if (navigator.appName.indexOf("Netscape") > -1)
+alert("Você esta utilizando o Netscape ou um Navegador Compatível");
+else
+if (navigator.appName.indexOf("Microsoft") > -1)
+alert("Você esta utilizando o I. Explorer ou um Navegador Compatível");
+else
+alert("Seu navegador não é o Internet Explorer nem o Netscape");
+
+
+
+</script>
+
+	
+</body>
+</html>
