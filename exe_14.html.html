@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 14 --- Dyogo Fernandes</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript">
+
+	function procura_string(texto_1,texto_2)
+		{
+
+			var z = texto_1.indexOf(texto_2);
+
+			if( z >= 0)
+				return z + 1;
+			else
+				return 0;
+			
+		}
+
+		alert("Verificação da string");
+
+		var ver = prompt("Digite um texto: ","Calegari");
+		var ver2 = prompt("Digite outro texto: ","ari");
+		var loc = procura_string(ver, ver2);
+		alert(loc);
+	</script>
+</body>
+</html>
