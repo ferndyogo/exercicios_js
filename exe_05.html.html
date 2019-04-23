@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 4 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<script type="text/javascript" language="javascript">
+		do
+	{	
+		oi = prompt("digite um número","0")
+		oi = parseFloat(oi);
+		if (isNaN(oi))
+			alert("digite um número válido")
+	}
+		while (isNaN(oi))
+		
+	do
+	{
+		xw = prompt("digite um número","0")
+		xw = parseFloat(xw);
+		if (isNaN(xw))
+			alert("digite um número válido")
+	}
+		while (isNaN(xw))
+
+document.write("<table border=\"1\">")
+
+document.write("<tr>")
+	document.write("<td>")
+		document.write(" Operação ")
+	document.write("</td>")
+	document.write("<td>")
+		document.write("valor")
+	document.write("</td>")
+document.write("</tr>")
+
+document.write("<tr>")
+	document.write("<td>")
+		document.write(oi + "+" + xw)
+	document.write("</td>")
+	document.write("<td>")
+		document.write(oi + xw)
+	document.write("</td>")
+document.write("</tr>")
+
+document.write("<tr>")
+	document.write("<td>")
+		document.write(oi + "*" + xw)
+	document.write("</td>")
+	document.write("<td>")
+		document.write(oi * xw)
+	document.write("</td>")
+document.write("</tr>")
+
+document.write("<tr>")
+	document.write("<td>")
+		document.write(oi + "/" + xw)
+	document.write("</td>")
+	document.write("<td>")
+		document.write(oi / xw)
+	document.write("</td>")
+document.write("</tr>")
+
+document.write("<tr>")
+	document.write("<td>")
+		document.write(oi + " resto " + xw)
+	document.write("</td>")
+	document.write("<td>")
+		document.write(oi % xw)
+	document.write("</td>")
+document.write("</tr>")
+
+
+
+
+document.write("</table>")
+		
+	</script>
+	
+</body>
+</html>
