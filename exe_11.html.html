@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 11 --- Dyogo Fernandes</title>
+
+	<script> i=0;
+function marquee(){
+mens=" Listinha dificillllll	";
+document.f1.texto.value = mens.substring(i,mens.length)+mens.substring(0, i-1);
+
+if (i < mens.length){ i++;
+}
+else {
+i=0;
+}
+
+window.setTimeout("marquee()",200)
+}
+
+</script>
+
+</head>
+<body onLoad="marquee()" bgcolor="#546365">
+<center>
+<form name="f1">
+<input type="text" name="texto" size="40">
+</form>
+</center>
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
