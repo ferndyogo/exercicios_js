@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercício 10 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<script type="text/javascript" language="javascript">
+
+nl = prompt("Digite o número de linhas:", "Digite aqui")
+nc = prompt("Digite o número de colunas:", "Digite aqui")
+
+cor1 = prompt("Digite a cor:", "Digite aqui")
+cor2 = prompt("Digite a cor:", "Digite aqui")
+
+    document.write("<table border=\"1\" width=\"500\">");
+
+       for (var j = 1; j <= nl; j++) {
+         
+         if(j%2==0) {
+
+		 		document.write("<tr bgcolor=\"" + cor2 + "\">");
+		 	} else {
+		 		document.write("<tr bgcolor=\"" + cor1 + "\">");
+
+       }
+
+      for(var i = 1; i <= nc; i++) {
+        
+           document.write("<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>");
+
+      }
+		
+		document.write("</tr>");
+      }
+		document.write("</table>");
+
+
+
+
+	</script>
+</body>
+</html>
