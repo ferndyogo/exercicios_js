@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercício 13 --- Dyogo Fernandes</title>
+</head>
+<body>
+	<script type="text/javascript" language="javascript">
+		
+numero_linhas = prompt("Entre com o número de linhas","1");
+
+numero_colunas = prompt("Entre com o numero de colunas","1");
+
+
+	 document.write("<table border=\"1\" width=\"800\">");
+
+       //Colocar nome na coluna
+
+
+    document.write("<tr>")
+     for(var a = 1; a <= numero_colunas; a++){
+
+          document.write("<td><b> Coluna" + a + "</b></td>")
+
+     }
+
+         document.write("</tr>")
+
+        //Fim
+
+        //Criando a tabela
+
+           for(j=1; j <= numero_linhas; j++)
+           {
+		document.write("<tr>");
+           for(i=1; i <= numero_colunas; i++)
+              {
+				document.write("<td>&nbsp;</td>");
+              }
+		document.write("</tr>");
+           }
+	 document.write("</table>");
+
+       //Fim
+</script>
+</body>
+</html>
